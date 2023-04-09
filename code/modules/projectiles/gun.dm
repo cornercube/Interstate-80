@@ -137,7 +137,7 @@ ATTACHMENTS
 /obj/item/gun
 	name = "gun"
 	desc = "It's a gun. It's pretty terrible, though."
-	icon = 'icons/obj/guns/projectile.dmi'
+	icon = 'icons/fallout/objects/guns/ballistic/ballistic.dmi'
 	icon_state = "detective"
 	item_state = "gun"
 	flags_1 =  CONDUCT_1
