@@ -185,7 +185,7 @@
 /obj/item/gun/ballistic/automatic/smg/
 	name = "SMG TEMPLATE"
 	desc = "should not exist"
-	icon = 'icons/fallout/objects/guns/ballistic.dmi'
+	icon = 'icons/fallout/objects/guns/ballistics/smg.dmi'
 	icon_prefix = "uzi"
 	lefthand_file = 'icons/fallout/onmob/weapons/guns_lefthand.dmi'
 	righthand_file = 'icons/fallout/onmob/weapons/guns_righthand.dmi'
@@ -588,7 +588,6 @@
 /obj/item/gun/ballistic/automatic/m1carbine/m1n
 	name = "M1/N carbine"
 	desc = "An M1 Carbine with markings identifying it as issued to the NCR Mojave Expedtionary Force. Looks beat up but functional."
-	icon = 'icons/fallout/objects/guns/ballistic.dmi'
 	icon_state = "ncr-m1carbine"
 	item_state = "rifle"
 	extra_damage = 25
@@ -856,7 +855,6 @@
 /obj/item/gun/ballistic/automatic/marksman/policerifle
 	name = "Police Rifle"
 	desc = "A pre-war Rifle that has been constantly repaired and rebuilt by the Oasis Police Department. Held together by duct tape and prayers, it somehow still shoots. This one has been re-chambered to 5.56"
-	icon = 'icons/fallout/objects/guns/ballistic.dmi'
 	lefthand_file = 'icons/fallout/onmob/weapons/guns_lefthand.dmi'
 	righthand_file = 'icons/fallout/onmob/weapons/guns_righthand.dmi'
 	icon_prefix = "assault_carbine"
@@ -905,7 +903,6 @@
 /obj/item/gun/ballistic/automatic/slr
 	name = "Enfield SLR"
 	desc = "A self-loading rifle in 7.62mm NATO. Semi-auto only."
-	icon = 'icons/fallout/objects/guns/ballistic.dmi'
 	lefthand_file = 'icons/fallout/onmob/weapons/guns_lefthand.dmi'
 	righthand_file = 'icons/fallout/onmob/weapons/guns_righthand.dmi'
 	icon_state = "slr"
@@ -1045,7 +1042,6 @@
 /obj/item/gun/ballistic/automatic/marksman/sniper/snipervenator
 	name = "Explorer sniper rifle"
 	desc = "The customized sniper rifle, fitted with a telescopic sight for extreme accuracy and chambered for a high-ballistic performance centerfire cartridge. It is a superior version of the regular sniper rifle and is decorated with the flag of the bull and tokens of a hunt."
-	icon = 'icons/fallout/objects/guns/ballistic.dmi'
 	lefthand_file = 'icons/fallout/onmob/weapons/guns_lefthand.dmi'
 	righthand_file = 'icons/fallout/onmob/weapons/guns_righthand.dmi'
 	mob_overlay_icon = 'icons/fallout/onmob/backslot_weapon.dmi'
@@ -1191,7 +1187,6 @@
 /obj/item/gun/ballistic/automatic/type93/worn //24dmg
 	name = "\improper Worn Type 93"
 	desc = "This Type 93 Chinese assault rifle looks like it has been made in a garage. The bore is shot to hell, the threading is destroyed, but atleast it works."
-	icon = 'icons/fallout/objects/guns/ballistic.dmi'
 	icon_state = "type93"
 	item_state = "handmade_rifle"
 	fire_delay = 5
@@ -1262,7 +1257,6 @@
 /obj/item/gun/ballistic/automatic/assault_carbine/policerifle
 	name = "Police Rifle"
 	desc = "A pre-war Rifle that has been constantly repaired and rebuilt by the Oasis Police Department. Held together by duct tape and prayers, it somehow still shoots."
-	icon = 'icons/fallout/objects/guns/ballistic.dmi'
 	lefthand_file = 'icons/fallout/onmob/weapons/guns_lefthand.dmi'
 	righthand_file = 'icons/fallout/onmob/weapons/guns_righthand.dmi'
 	icon_state = "rifle-police"

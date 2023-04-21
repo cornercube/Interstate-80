@@ -12,7 +12,7 @@
 	slowdown = 0
 	name = "pistol template"
 	desc = "should not be here. Bugreport."
-	icon = 'icons/fallout/objects/guns/ballistic.dmi'
+	icon = 'icons/fallout/objects/guns/ballistics/pistols.dmi'
 	lefthand_file = 'icons/fallout/onmob/weapons/guns_lefthand.dmi'
 	righthand_file = 'icons/fallout/onmob/weapons/guns_righthand.dmi'
 	item_state = "gun"
