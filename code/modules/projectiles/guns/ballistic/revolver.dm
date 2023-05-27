@@ -5,6 +5,7 @@
 	slowdown = 0.1
 	name = "revolver template"
 	desc = "should not exist."
+	icon = 'icons/fallout/objects/guns/revolver.dmi'
 	icon_state = "revolver"
 	mag_type = /obj/item/ammo_box/magazine/internal/cylinder
 	fire_delay = 4.5

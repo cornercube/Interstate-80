@@ -373,6 +373,42 @@
 	update_icon()
 	return
 
+//F76 SMG, slightly better fire-rate and damage
+/obj/item/gun/ballistic/automatic/smg/smg10mm/f76
+	name = "pristine 10mm submachine gun"
+	desc = "One of the most common personal-defense weapons of the Great War, a sturdy and reliable open-bolt 10mm submachine gun. This one has managed to avoid the ravages of the wasteland."
+	icon_state = "smg10mm_f76_commando"
+	item_state = "smg10mm_f76_commando"
+	autofire_shot_delay = 2.2
+	spread = 12
+	slowdown = 0.3
+	extra_damage = 22
+	extra_penetration = 0.1
+
+//F76 SMG, more accurate, slower firing
+/obj/item/gun/ballistic/automatic/smg/smg10mm/f76/commando
+	name = "commando 10mm submachine gun"
+	desc = "One of the most common personal-defense weapons of the Great War, a sturdy and reliable open-bolt 10mm submachine gun. This has a compensator on the barrel for better recoil control."
+	autofire_shot_delay = 2.75
+	spread = 9
+	extra_damage = 20
+	icon_state = "smg10mm_f76_commando"
+	item_state = "smg10mm_f76_commando"
+
+//F76 sleepytime, more damage, less slowdown, suppressed, accurate,slow rate of fire
+/obj/item/gun/ballistic/automatic/smg/smg10mm/f76/sleepytime
+	name = "commando 10mm submachine gun"
+	desc = "Personalized submachine gun with integral suppressor, for when you do not want to wake the neighbors"
+	can_attachments = FALSE
+	Suppressed = 1
+	spread = 5
+	autofire_shot_delay = 3
+	extra_damage = 25
+	slowdown = 0.275
+	icon_state = "sleepytime"
+	item_state = "sleepytime"
+
+
 //Uzi				Keywords: 9mm, Automatic, 32 rounds
 /obj/item/gun/ballistic/automatic/smg/mini_uzi
 	name = "Uzi"
