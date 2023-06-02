@@ -147,7 +147,7 @@
 
 /obj/item/throwing_star/tomahawk/pvc
 	name = "pvc tomahawk"
-	desc = "A crudely made lightweight axe consisting of a pvc pipe and railways spikes, commonly used by the White Legs tribe."
+	desc = "A crudely made lightweight axe consisting of a pvc pipe and railway spikes, commonly used by the White Legs tribe."
 	icon = 'icons/fallout/objects/melee/melee.dmi'
 	lefthand_file = 'icons/fallout/onmob/weapons/melee1h_lefthand.dmi'
 	righthand_file = 'icons/fallout/onmob/weapons/melee1h_righthand.dmi'
