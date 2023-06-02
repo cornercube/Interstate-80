@@ -10,6 +10,7 @@
 	icon_state = "mega_mirelurk"
 	icon_living = "mega_mirelurk"
 	icon_dead = "mega_mirelurk_dead"
+	movement_type = GROUND
 	friendly_verb_continuous = "stares down"
 	friendly_verb_simple = "stare down"
 	speak_emote = list("chitters")
