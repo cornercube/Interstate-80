@@ -13,6 +13,7 @@
 	icon_state = "mega_gekko"
 	icon_living = "mega_gekko"
 	icon_dead = "mega_gekko_dead"
+	movement_type = GROUND
 	friendly_verb_continuous = "stares down"
 	friendly_verb_simple = "stare down"
 	faction = list("gecko")
