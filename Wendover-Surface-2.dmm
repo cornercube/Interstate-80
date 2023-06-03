@@ -9374,6 +9374,10 @@
 	},
 /turf/open/indestructible/ground/outside/lifelessdesert,
 /area/f13/wasteland)
+"cMo" = (
+/obj/machinery/vending/cola,
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland)
 "cMr" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood/f13/stage_r,
@@ -9945,7 +9949,6 @@
 /turf/open/indestructible/ground/outside/saltflats/crackedinnerbottomright,
 /area/f13/wasteland)
 "cSE" = (
-/obj/structure/chair/sofa/corp/left,
 /obj/structure/sign/poster/contraband/space_cube{
 	pixel_y = 32
 	},
@@ -20064,6 +20067,7 @@
 /obj/machinery/requests_console{
 	pixel_y = 30
 	},
+/obj/item/reagent_containers/food/drinks/britcup/gromit,
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/followers)
 "fCa" = (
@@ -26005,6 +26009,10 @@
 	layer = 3.02
 	},
 /turf/open/indestructible/ground/outside/graveldirt,
+/area/f13/wasteland)
+"hmE" = (
+/obj/machinery/vending/cola,
+/turf/open/indestructible/ground/outside/sidewalk/innerhorizontal,
 /area/f13/wasteland)
 "hmK" = (
 /obj/effect/overlay/gravel/edge{
@@ -40685,6 +40693,10 @@
 	pixel_x = -16
 	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/vending/cola/starkist{
+	name = "\improper stolen Balls Guarana Vending Machine";
+	desc = "A pre-war Balls Guarana Vending Machine that has been relocated by the locals. For that Bounce! To keep you going!"
+	},
 /turf/open/floor/plasteel/rockvault/lit,
 /area/f13/building)
 "lpV" = (
@@ -45236,6 +45248,10 @@
 "mIL" = (
 /obj/effect/spawner/lootdrop/trash,
 /turf/open/indestructible/ground/outside/saltflats/bluecenter,
+/area/f13/wasteland)
+"mIZ" = (
+/obj/machinery/vending/cigarette,
+/turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "mJo" = (
 /obj/structure/railing/corrugated/five{
@@ -59670,6 +59686,10 @@
 	},
 /turf/open/indestructible/ground/outside/roadi80,
 /area/f13/wasteland)
+"qGq" = (
+/obj/machinery/vending/cola,
+/turf/open/indestructible/ground/outside/sidewalk,
+/area/f13/wasteland)
 "qGu" = (
 /turf/open/indestructible/ground/outside/saltflats/path/ver,
 /area/f13/tunnel)
@@ -68424,6 +68444,12 @@
 	dir = 1
 	},
 /area/f13/wasteland)
+"sZr" = (
+/obj/machinery/vending/cigarette{
+	pixel_x = -4
+	},
+/turf/open/indestructible/ground/outside/gravel/path_desert/intersection/alt,
+/area/f13/wasteland)
 "sZu" = (
 /obj/structure/car/rubbish1{
 	layer = 3.12
@@ -75026,11 +75052,11 @@
 /turf/open/floor/plating/tunnel/lit,
 /area/f13/building)
 "uUm" = (
-/obj/structure/chair/sofa/corp,
 /obj/structure/sign/poster/contraband/atmosia_independence{
 	pixel_y = 32;
 	name = "To Be Or Not To Be"
 	},
+/obj/machinery/vending/autodrobe,
 /turf/open/floor/plating/tunnel,
 /area/f13/theater)
 "uUr" = (
@@ -77521,10 +77547,10 @@
 /turf/open/floor/plasteel/f13/vault_floor/white/lit,
 /area/f13/building)
 "vCX" = (
-/obj/structure/chair/sofa/corp/right,
 /obj/structure/sign/poster/prewar/poster81{
 	pixel_y = 32
 	},
+/obj/machinery/vending/clothing,
 /turf/open/floor/plating/tunnel,
 /area/f13/theater)
 "vDC" = (
@@ -104363,7 +104389,7 @@ nyk
 jur
 vQo
 gvm
-jur
+cMo
 rfz
 rfz
 pFo
@@ -104620,7 +104646,7 @@ qki
 jur
 qCD
 gvm
-jur
+mIZ
 rfz
 flu
 flu
@@ -105757,7 +105783,7 @@ cut
 uWi
 nrx
 kkP
-hPV
+hmE
 jgC
 cRf
 khv
@@ -112386,7 +112412,7 @@ qui
 wnK
 waX
 mpV
-mpV
+sZr
 aQu
 jur
 jWZ
@@ -113149,7 +113175,7 @@ jJW
 xck
 jJW
 wPA
-qui
+qGq
 qui
 qui
 qui
