@@ -242,7 +242,7 @@
 /obj/item/clothing/suit/armor/f13/ncrarmor/labcoat,
 /obj/item/clothing/shoes/laceup,
 /obj/item/clothing/neck/stethoscope,
-/turf/open/floor/wood/f13/oakbroken3,
+/turf/open/floor/plasteel/cmo,
 /area/f13/followers)
 "anm" = (
 /obj/machinery/light,
@@ -1271,6 +1271,7 @@
 	pixel_x = -1
 	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/item/reagent_containers/food/drinks/britcup/gromit,
 /turf/open/floor/carpet/blue/nosmooth,
 /area/f13/followers)
 "buM" = (
@@ -2352,7 +2353,7 @@
 /turf/open/floor/f13/blue,
 /area/f13/enclave)
 "csr" = (
-/turf/open/floor/wood/f13/oak,
+/turf/open/floor/plasteel/cmo,
 /area/f13/followers)
 "csP" = (
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -3064,6 +3065,10 @@
 	},
 /turf/open/floor/f13,
 /area/f13/followers)
+"cUD" = (
+/obj/machinery/door/airlock/medical,
+/turf/open/floor/plasteel/bluespace,
+/area/f13/followers)
 "cVj" = (
 /obj/machinery/light/small{
 	dir = 4;
@@ -3595,6 +3600,13 @@
 	icon_state = "neutraldirtyfull"
 	},
 /area/f13/enclave)
+"dwk" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/bodycontainer/morgue{
+	dir = 8
+	},
+/turf/open/floor/plasteel/bluespace,
+/area/f13/followers)
 "dwo" = (
 /obj/machinery/hydroponics/constructable,
 /obj/structure/nest/mob/venushumantrap/weak,
@@ -4763,7 +4775,7 @@
 /obj/structure/chair/sofa/corp/right{
 	dir = 1
 	},
-/turf/open/floor/wood/f13/oak,
+/turf/open/floor/plasteel/cmo,
 /area/f13/followers)
 "eyF" = (
 /obj/machinery/light{
@@ -5467,7 +5479,7 @@
 	pixel_x = 1
 	},
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/wood/f13/oakbroken,
+/turf/open/floor/plasteel/cmo,
 /area/f13/followers)
 "fjs" = (
 /obj/item/radio/intercom/vaultintercom{
@@ -6543,7 +6555,7 @@
 /obj/structure/sign/painting/library{
 	pixel_x = 32
 	},
-/turf/open/floor/wood/f13/oakbroken,
+/turf/open/floor/plasteel/cmo,
 /area/f13/followers)
 "fVl" = (
 /obj/item/stack/ore/silver,
@@ -10396,6 +10408,12 @@
 "jxX" = (
 /turf/open/indestructible/ground/outside/sidewalk/wastelandedge/left,
 /area/f13/wasteland)
+"jxZ" = (
+/obj/structure/bodycontainer/morgue{
+	dir = 8
+	},
+/turf/open/floor/plasteel/bluespace,
+/area/f13/followers)
 "jym" = (
 /obj/structure/chair/comfy/brown{
 	dir = 8;
@@ -10439,7 +10457,7 @@
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/spawner/lootdrop/f13/crafting,
-/turf/open/floor/wood/f13/oak,
+/turf/open/floor/plasteel/cmo,
 /area/f13/followers)
 "jAp" = (
 /obj/machinery/door/unpowered/celldoor{
@@ -11133,7 +11151,7 @@
 	pixel_y = 7;
 	pixel_x = 12
 	},
-/turf/open/floor/wood/f13/oakbroken3,
+/turf/open/floor/plasteel/cmo,
 /area/f13/followers)
 "kfA" = (
 /obj/structure/displaycase{
@@ -11314,7 +11332,7 @@
 /area/f13/vault)
 "klb" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/wood/f13/oakbroken4,
+/turf/open/floor/plasteel/cmo,
 /area/f13/followers)
 "klc" = (
 /obj/structure/car/junk/emitter{
@@ -14479,7 +14497,7 @@
 /obj/structure/sign/painting/library{
 	pixel_y = 32
 	},
-/turf/open/floor/wood/f13/oak,
+/turf/open/floor/plasteel/cmo,
 /area/f13/followers)
 "mNI" = (
 /obj/structure/table,
@@ -16808,7 +16826,7 @@
 /obj/structure/decoration/clock/active{
 	pixel_y = 30
 	},
-/turf/open/floor/wood/f13/oak,
+/turf/open/floor/plasteel/cmo,
 /area/f13/followers)
 "oLh" = (
 /obj/machinery/conveyor{
@@ -17556,6 +17574,11 @@
 	icon_state = "greendirtyfull"
 	},
 /area/f13/enclave)
+"pwY" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/blood/gibs,
+/turf/open/floor/plasteel/bluespace,
+/area/f13/followers)
 "pxh" = (
 /obj/structure/closet/locker,
 /obj/item/clothing/suit/armor/f13/environmentalsuit,
@@ -22290,6 +22313,12 @@
 	},
 /turf/open/floor/plasteel/rockvault,
 /area/f13/enclave)
+"tuh" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/f13,
+/area/f13/followers)
 "tuS" = (
 /obj/machinery/door/poddoor/shutters{
 	id = "vaultarmory1"
@@ -22527,7 +22556,7 @@
 	dir = 1;
 	pixel_x = -1
 	},
-/turf/open/floor/wood/f13/oakbroken4,
+/turf/open/floor/plasteel/cmo,
 /area/f13/followers)
 "tFP" = (
 /obj/machinery/chem_master/advanced,
@@ -22843,6 +22872,10 @@
 /obj/effect/spawner/lootdrop/ammo,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
+"tUu" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/bluespace,
+/area/f13/followers)
 "tVb" = (
 /obj/machinery/telecomms/broadcaster/preset_right,
 /turf/open/floor/f13/green,
@@ -23614,7 +23647,7 @@
 	dir = 4;
 	pixel_y = 5
 	},
-/turf/open/floor/wood/f13/oakbroken2,
+/turf/open/floor/plasteel/cmo,
 /area/f13/followers)
 "uEM" = (
 /obj/structure/chair/bench,
@@ -26816,7 +26849,7 @@
 	pixel_y = 32;
 	pixel_x = 1
 	},
-/turf/open/floor/wood/f13/oak,
+/turf/open/floor/plasteel/cmo,
 /area/f13/followers)
 "xnl" = (
 /obj/machinery/door/window/eastright{
@@ -27165,7 +27198,12 @@
 /turf/open/floor/carpet/green,
 /area/f13/caves)
 "xDr" = (
-/turf/open/floor/wood/f13/oakbroken,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light/small{
+	dir = 4
+	},
+/mob/living/simple_animal/hostile/radroach,
+/turf/open/floor/plasteel/bluespace,
 /area/f13/followers)
 "xFq" = (
 /obj/structure/chair/comfy/black{
@@ -45572,7 +45610,7 @@ pJh
 pJh
 pJh
 dhl
-cnB
+rnx
 pJh
 uTu
 jaf
@@ -45828,8 +45866,8 @@ klb
 jzZ
 uEC
 mwi
-dhl
-dhl
+cnB
+fsD
 pJh
 pJh
 pJh
@@ -46078,15 +46116,15 @@ bgj
 jdZ
 rzr
 cnB
-cnB
+qPj
 pJh
 mMS
 csr
-xDr
+csr
 csr
 mZg
-dhl
-dhl
+cnB
+cnB
 lgQ
 igQ
 lTP
@@ -46343,7 +46381,7 @@ csr
 csr
 lXR
 dhl
-dhl
+cnB
 lgQ
 epz
 ajt
@@ -46594,7 +46632,7 @@ iPD
 dhl
 cnB
 pJh
-pJh
+csr
 xmX
 kfl
 eyr
@@ -46850,14 +46888,14 @@ pJh
 pJh
 uPa
 dhl
-dIz
-pJh
+cTx
+csr
 fjp
 fUZ
 tFh
 fiD
 cnB
-dhl
+cnB
 gWb
 oEk
 ajt
@@ -47107,7 +47145,7 @@ nIM
 pJh
 cnB
 dhl
-cnB
+dIz
 pJh
 pJh
 pJh
@@ -47627,8 +47665,8 @@ cnB
 cnB
 cnB
 dhl
-dhl
-rnx
+cnB
+oue
 pJh
 kZK
 xvn
@@ -47884,11 +47922,11 @@ oFK
 cnB
 dhl
 cnB
-cnB
-cTx
 pJh
-kZK
-xvn
+pJh
+pJh
+pJh
+ajt
 kZK
 elz
 bSz
@@ -48141,11 +48179,11 @@ aBK
 cnB
 dhl
 cnB
-cnB
-orA
-pJh
-kZK
-xvn
+cUD
+pwY
+tUu
+tUu
+ajt
 kZK
 elz
 dxK
@@ -48395,14 +48433,14 @@ ppI
 pJh
 wsk
 aBK
+tuh
 cnB
-qPj
-oue
-ppI
-fsD
+orA
 pJh
-kZK
-xvn
+dwk
+xDr
+jxZ
+ajt
 kZK
 elz
 uUG
@@ -48658,8 +48696,8 @@ pJh
 pJh
 pJh
 pJh
-kZK
-xvn
+pJh
+ajt
 pEx
 elz
 ktk
