@@ -494,6 +494,11 @@
 	volume = 30
 	spillable = TRUE
 
+/obj/item/reagent_containers/food/drinks/britcup/gromit
+	name = "cup"
+	icon_state = "gromit_mug"
+	desc = "a novelty pre-war cup depicting some kind of strange animal."
+
 /obj/item/reagent_containers/food/drinks/flask/museum
 	name = "Air Museum Flask"
 	desc = "A plain steel flask, sealed by lock and key. The front is inscribed with an Army Air Force seal."
